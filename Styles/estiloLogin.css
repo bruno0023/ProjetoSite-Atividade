@@ -1,0 +1,189 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --primary--color: #3a68b7;
+}
+
+body{
+    margin: 0;
+    
+    background-color: #fffff6;
+    font-family: "Roboto", sans-serif;
+    height: 100vh;
+}
+
+.form{
+    display: flex;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 80%;
+    max-width: 32rem;
+    background-image: linear-gradient(to right, rgba(0, 0, 0,.3) .5rem, white .5rem);
+
+}
+
+.form__fieldset{
+    border: none;
+    display: flex;
+    flex-direction: column;
+    gap: .25em;
+    padding: 2rem;
+}
+
+.form__title{
+    font-weight: 300;
+    font-size: 2rem;
+    color: var(--primary--color);
+    padding-top: 2rem;
+}
+
+.form__label{
+    font-size: .8rem;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+
+.form__input{
+    padding: .5rem 0;
+    font-size: 1.2rem;
+    border: none;
+    border-bottom: 1px solid var(--primary--color);
+    margin-bottom: .8rem;
+    outline: none;
+}
+
+.form__input:focus{
+    outline: 2px solid var(--primary--color);
+    padding-left: .3rem;
+}
+
+.btn{
+    text-transform: uppercase;
+    font-size: 1rem;
+    border-radius: 3px;
+    border: none;
+    outline: none;
+    padding: .8rem 1.2rem;
+    text-decoration: none; 
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.btn-primary{
+    background-color: var(--primary--color);
+    color: white;
+}
+
+.btn-secondary{
+    color: var(--primary--color);
+}
+
+.form__action{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.form_action_aside{
+    font-size: .85rem;
+    flex-grow: 1;
+    text-align: right;
+    text-decoration: none;
+    color: red;
+}
+
+.form_action_link{
+    text-decoration: none;
+    color: inherit;
+}
+
+.container_nav{
+    background-color: var(--cor--principal);
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    border-bottom: .1px solid black;
+    
+}
+
+.container_principal{
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container_marca{
+    display: flex;
+    align-items: center;
+}
+
+.container_marca a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.container_title span{
+    color: red;
+}
+
+.container_logo{
+    height: 4rem;
+}
+
+.container_search{
+    background-image: url(../img/lupa.png);
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: .5rem;
+    width: 25rem;
+    height: 2.3rem;
+    border: none;
+    outline: none;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding-left: 2.5rem;
+}
+
+.footer{
+    background-color: rgb(231, 48, 48);
+    display: flex;
+    gap: 1rem;
+    padding: 2.5rem;
+    height: 5.625rem;
+    align-items: center;
+    height: auto;
+}
+
+.footer_conteudo{
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    width: 50%;
+    padding: 1rem;
+}
+
+.footer_title{
+    text-transform: uppercase;
+    color: var(--cor--principal);
+}
+
+.footer_conteudo p{
+    color: var(--cor--principal);
+    font-size: 1rem;
+}
+
+.footer_borda{
+    border-right: 1px solid white;
+    border-left: 1px solid white;
+}
+
+
+
+
+
+

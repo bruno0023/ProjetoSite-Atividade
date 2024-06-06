@@ -1,0 +1,219 @@
+:root{
+    --cor--principal: white;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto";
+}
+
+
+body{
+    background-color: #fffff6;
+}
+.container{
+    background-color: var(--cor--principal);
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    border-bottom: .1px solid black;
+}
+
+.container_marca{
+    display: flex;
+    align-items: center;
+}
+
+.container_marca a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.container_title span{
+    color: red;
+}
+
+.container_logo{
+    height: 4rem;
+}
+
+.container_search{
+    background-image: url(../img/lupa.png);
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: .5rem;
+    width: 25rem;
+    height: 2.3rem;
+    border: none;
+    outline: none;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding-left: 2.5rem;
+}
+
+.container_lista{
+    display: flex;
+    gap: 1rem;
+}
+
+.container_lista_conteudo{
+    display: flex;
+    width: 7rem;
+    gap: .5rem;
+    align-items: center;
+}
+
+.container_lista_conteudo a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.nav{
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;  
+    height: 100px; 
+}
+
+.nav a{
+    text-decoration: none;
+    color: black;
+}
+
+.nav_conteudo a img{
+    width: 5rem;  
+    background-color: yellow;
+    width: 90px;
+    border-radius: 50%;
+}
+
+.nav_conteudo{
+    text-align: center;
+    border-radius: 50%;
+}
+
+.nav_conteudo img:hover{
+    height: 6rem;
+    width: 6rem;
+    transition: 1ms;
+}
+
+.container_principal{
+    width: 80%;
+    margin: auto;
+}
+
+.principal_img{
+    height: 8rem;
+    cursor: pointer;
+}
+
+.principal_title{
+    display: inline-block;
+    margin: 1rem 0;
+    padding: .5rem 1rem;
+    color: red;
+}
+
+.principal{
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.principal_conteudo{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: .5rem;
+    gap: 1rem;
+    width: 11.5rem;
+    border: 1px solid rgb(22, 22, 22);
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.23) 0px 6px 10px 0px;
+}
+
+.principal_valor{
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.principal_caixa_valor{
+    display: flex;
+    flex-direction: column;
+    margin-top: auto;
+}
+
+.btn{
+    text-transform: uppercase;
+    background-color: var(--cor--principal);
+    padding: .5rem 1.5rem;
+    border: 1px solid rgb(35, 49, 140);
+    color: rgb(35, 49, 140);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: rgb(255, 74, 74);
+    color: white;
+}
+
+.mais{
+    color: rgb(35, 49, 140);
+    margin: auto 0;
+    cursor: pointer;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: .2rem .2rem;
+    text-align: center;
+    font-weight: bold;
+}
+
+.footer{
+    background-color: rgb(231, 48, 48);
+    display: flex;
+    gap: 1rem;
+    padding: 2.5rem;
+    height: 5.625rem;
+    align-items: center;
+}
+
+.footer_conteudo{
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    width: 50%;
+    padding: 1rem;
+}
+
+.footer_title{
+    text-transform: uppercase;
+    color: var(--cor--principal);
+}
+
+.footer_conteudo p{
+    color: var(--cor--principal);
+    font-size: 1rem;
+}
+
+.footer_borda{
+    border-right: 1px solid white;
+    border-left: 1px solid white;
+}
+
+.localizacao{
+    display: flex;
+    flex-direction: column;
+    margin-top: 1.5rem;
+    padding: 1rem;
+    gap: .5rem;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
